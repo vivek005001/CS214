@@ -1,0 +1,91 @@
+Arrays
+
+Problem 1: For a given two arrays (size 6) of name and student marks (out
+of 100) of four subjects, write a MIPS assembly program that lets the user enter
+the name of a student as an input. The program checks whether the input name
+is matched with the given string array of the names. If matched, the program
+prints the marks list of the corresponding student. The two possible output
+formats of the program are as follows:
+Output 1: Enter Student Name: Abhilash
+The marks of student is as follows:
+Physics: 85
+Chemistry: 70
+Mathematics: 95
+Biology: 90
+Output 2: Enter Student Name: Tanmay
+Student name is not matched
+
+
+
+Problem 2: Write a MIPS assembly program that implements the bubble
+sort for an integer array of size 10. The user provides the input value of the
+integers for the array. The program prompts the following output on the screen:
+Before Bubble Sort: 2, 3, 1, 0, 5, 4, 7, 6, 9, 8
+Iteration 1: 2, 1, 0, 3, 4, 5, 6, 7, 8, 9
+Iteration 2: 1, 0, 2, 3, 4, 5, 6, 7, 8, 9
+..
+..
+..
+After Bubble Sort: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+
+Functions
+
+Write a MIPS assembly program that lets the user to enter the
+two strings of a maximum length of 8 characters and a character. The MIPS
+program implements three functions: (a) compute length: compute the length
+of the input string and print it (b) search character: search the character and determines whether the character is present or not in the string (c) concat string:
+concatenate the two input string into the third-string and return the concatenated string into caller function and print it. Note that the first two functions
+are called for both the strings, and the third function is called for two times: the
+first time, the first input string is passed as the first input argument, and the
+second input string is passed as the second argument. Whereas for the second
+time, the first input string is passed as the second input argument, and the
+second input string is passed as the first argument. The output format for the
+input strings "Hi", "World" and the input character ‘H’ is as follows:
+Length of first string: 2
+Length of second string: 5
+Input character is present in the first string
+Input character is not present in the second string
+First concatenated string: HiWorld
+Second concatenated string: WorldHi
+
+
+Write MIPS assembly program that implements the bubble sort,
+quick sort (consider the pivot element to be the middle element of the array
+always), and selection sort functions that sort an integer array of size 10. The
+sorting algorithm print the sorted array along with the number of comparison
+and swap operations. Further, based on the comparison operation, print the
+best sorting algorithm. Similarly, based on the swap operation, print the best
+sorting algorithm. The user provides the input value of the integers for the
+array. The program prompts the following output on the screen:
+Before Bubble Sort: 2, 3, 1, 0, 5, 4, 7, 6, 9, 8
+After Bubble Sort: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Total Number of Comparisons: 12 (incorrect number)
+Total Number of Swaps: 13 (incorrect number)
+Before Quick Sort: 2, 3, 1, 0, 5, 4, 7, 6, 9, 8
+After Quick Sort: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Total Number of Comparisons: 20 (incorrect number)
+Total Number of Swaps: 19 (incorrect number)
+3Before Selection Sort: 2, 3, 1, 0, 5, 4, 7, 6, 9, 8
+After Selection Sort: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Total Number of Comparisons: 9 (incorrect number)
+Total Number of Swaps: 15 (incorrect number)
+Selection sort is best in terms of comparison
+Bubble sort is best in terms of swap
+
+
+Itreative Construct
+The Fibonacci Sequence is the series of numbers:
+0,1,1,2,3,5,8,13,21.........
+that is produced by the adding up two number appear before the sequence.
+Write a MIPS assembly program that takes one number as an input, let say n
+and print the first n number of Fibonacci series by first storing into the memory.
+The output format (for n = 6) should be like this:
+1 number of fibonacci series is stored at memory location 3000
+2 number of fibonacci series is stored at memory location 3004
+3 number of fibonacci series is stored at memory location 3008
+.....
+fibonacci series: 0,1,1,2,3,5
+
+
